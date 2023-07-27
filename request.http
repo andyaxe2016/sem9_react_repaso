@@ -1,0 +1,11 @@
+@server = https://andyaxe2016-psychic-space-bassoon-6jx9v57rj962rg5v-8080.preview.app.github.dev
+###
+
+GET {{server}}/api/employees
+
+###
+
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{"firstName": "Andy" ,"lastName": "Chumpitaz", "description": "React"}
